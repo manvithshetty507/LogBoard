@@ -21,7 +21,10 @@ Then Coded kafka producer which fetch's every 5 sec for new rows to publish in a
     docker compose down --> deletes all container but images remain along with volume if this flag --volume
     docker compose stop -- > stops container to be restarted later
     docker compose start
+```
 
+```
+    MySQL → Kafka Producer → Kafka → Kafka Consumer → Elasticsearch
 ```
 
 
